@@ -1,0 +1,10 @@
+version: "3.4"
+
+services: 
+    product-registry:
+        build: .
+        volumes: 
+            - .:/usr/souce/app
+        ports:
+            - 5000:80
+
