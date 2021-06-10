@@ -85,7 +85,7 @@ If a product with the given identifier already exists, the existing product will
 
 **Definition**
 
-`DELETE /products/<identifier>`
+`DELETE /product/<identifier>`
  
 **Response**
 
